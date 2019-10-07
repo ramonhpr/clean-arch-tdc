@@ -3,8 +3,8 @@ class UserController {
         this.createUserInteractor = createUserInteractor;
     }
 
-    createUser() {
-        this.createUserInteractor.execute();
+    createUser(name) {
+        this.createUserInteractor.execute(name);
     }
 }
 
